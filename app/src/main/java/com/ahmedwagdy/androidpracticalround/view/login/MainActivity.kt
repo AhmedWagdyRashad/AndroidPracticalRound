@@ -1,4 +1,4 @@
-package com.ahmedwagdy.androidpracticalround.view
+package com.ahmedwagdy.androidpracticalround.view.login
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,6 +6,7 @@ import android.os.Bundle
 import com.ahmedwagdy.androidpracticalround.R
 import com.ahmedwagdy.androidpracticalround.contracts.MainContract
 import com.ahmedwagdy.androidpracticalround.presenters.MainPresenter
+import com.ahmedwagdy.androidpracticalround.view.RegistrationActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() , MainContract.View {
