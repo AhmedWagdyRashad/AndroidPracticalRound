@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() , MainContract.View {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        title = "Login To Your Account"
+        title = "Login"
         presenter = MainPresenter(this, applicationContext)
 
         create_account_txt.setOnClickListener {
@@ -23,8 +23,6 @@ class MainActivity : AppCompatActivity() , MainContract.View {
             startActivity(intent)
         }
     }
-
-
 
     override fun onDestroy() {
         super.onDestroy()
